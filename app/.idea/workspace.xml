@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a9d07ad-a87d-4772-bf52-386a180acb8d" name="Default Changelist" comment="" />
+    <list default="true" id="4a9d07ad-a87d-4772-bf52-386a180acb8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/container/erp/migrations/0002_auto_20201002_2207.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container/erp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container/erp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/container/erp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/container/erp/migrations/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/views.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +47,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1hLWHCMdpiBQIhVn6Vk8Qoc8Rt6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,9 +62,10 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/container/erp/tests.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.settings">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +80,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python">
+      <module name="app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Compu Fire\Videos\proyectoDW\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/container/erp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/container/erp/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,6 +134,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.app" />
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python.settings" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.settings" />
@@ -112,6 +157,9 @@
       <updated>1599790764314</updated>
       <workItem from="1599790865617" duration="9466000" />
       <workItem from="1599800794335" duration="2720000" />
+      <workItem from="1601693363011" duration="9378000" />
+      <workItem from="1601706653377" duration="472000" />
+      <workItem from="1601732103646" duration="2000000" />
     </task>
     <servers />
   </component>
@@ -119,40 +167,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599797718574">
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601699612991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599797718574" />
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601699612991" />
     <state x="522" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599794291061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="522" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599794291061" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599800703326">
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601703068121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599800703326" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599800703326">
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601703068121" />
+    <state x="686" y="174" key="FileChooserDialogImpl" timestamp="1601699604171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599800703326" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599800703326">
+    <state x="686" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601699604171" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601749443520">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599800703326" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599800703326">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601749443520" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601749443519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599800703326" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601749443519" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601749443519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601749443519" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601749443519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601749443519" />
     <state x="279" y="58" key="SettingsEditor" timestamp="1599800110293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599800110293" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1599800809832">
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1601732105592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599800809832" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601732105592" />
+    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601707100863">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601707100863" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/app$settings.coverage" NAME="settings Coverage Results" MODIFIED="1599797230693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/app$tests.coverage" NAME="tests Coverage Results" MODIFIED="1601738973194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/container/erp" />
+    <SUITE FILE_PATH="coverage/app$settings.coverage" NAME="settings Coverage Results" MODIFIED="1601699455844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
